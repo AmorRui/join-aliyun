@@ -1,0 +1,148 @@
+/*CSS格式化*/
+/*清除内外边距*/
+*{
+	margin: 0;
+	padding: 0;
+}
+/*设置 字体大小  字体*/
+body{
+  width: 1200px;
+	font-size: 14px;
+  font-family: arial ,"Microsoft YaHei", sans-serif;
+  color: #00b7d3;
+}
+/*清除H标签的加粗效果*/
+h1,h2,h3,h4,h5,h6{
+	font-weight: 400;
+}
+/*清除li的小点点*/
+li{
+	list-style: none;
+}
+/*设置a的字体大小 颜色  清除点击下划线*/
+a{
+	font-size: 12px;
+	color: #fff;
+	text-decoration: none;
+}
+/*设置a标签点击变色*/
+a:hover{
+	color:  #00b7d3;;
+}
+/*清除图片的边框, 设置图片对齐方式*/
+img{
+	border: 0 none;
+	vertical-align: middle;
+}
+/*设置表单的样式 边框 样式 文本域不缩放*/
+input,button,textarea{
+	border: 0 none;
+	outline-style: none;
+	resize: none;
+
+}
+/*设置浮动*/
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/* 清除浮动 */
+.clearfix:before,.clearfix:after{
+	content: "";
+	display: table;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+.clearfix:after{
+	clear: both;
+}
+
+/* 头部 */
+.hearch {
+  position: fixed;
+  z-index: 999;
+  height: 40px;
+  line-height: 40px;
+  background-color: #373d41;
+  position: relative;
+}
+/* logo */
+.hearch .logo {
+  margin-left: 30px;
+  width: 80px;
+  height: 40px;
+}
+.hearch .logo img {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 80px;
+}
+/* search */
+.hearch .search {
+  width: 100px;
+  position: absolute;
+  top: 0;
+  right: 480px;
+}
+.hearch .search input {
+  float: right;
+  margin: 5px auto;
+  height: 30px;
+  width: 150px;
+  background-color: #505658;
+  outline: none;
+  font-size: 12px;
+}
+.hearch .search img {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 14px;
+  padding:5px;
+}
+.hearch .search span{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  color: #fff;
+}
+.hearch .search input:hover {
+  width: 200px;
+  border: 1px solid #00b7d3;
+  background-color: #373d41;
+  transition: all .3s linear;
+}
+.hearch .search img:last-child {
+  display: none;
+}
+.hearch .search:hover img{
+  display: none;
+}
+.hearch .search:hover img:last-child{
+  display: block;
+}
+/* nav */
+.hearch .nav {
+  margin-right: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.hearch .nav li {
+  float: left;
+  width: 60px;
+}
+.hearch .nav li img {
+  width: 14px;
+}
+.hearch .nav li button {
+  width: 100px;
+  height: 40px;
+  background-color: #00b7d3;
+  color: #fff;
+}
+
