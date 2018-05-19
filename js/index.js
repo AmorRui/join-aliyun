@@ -16,9 +16,6 @@ window.onload = function () {
 // fullpage
 $(function () {
   $('#fullpage').fullpage({
-    navigation:true,
-    navigationPosition:left,
-    navigationTooltips:"1","2"
   });
 });
 
