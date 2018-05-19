@@ -295,12 +295,8 @@ input,button,textarea{
   position: relative;
   float: left;
   outline: none;
-  /* overflow: hidden; */
 }
-#fullpage .two .content_list .swiper-slide {
-  float: left;
-}
-#fullpage .two .content_list .two_img {
+#fullpage .two .content_list img {
   width: 100%;
   height: 100%;
 }
@@ -348,7 +344,76 @@ input,button,textarea{
 #fullpage .two .content_list .item .iten_4 {
   width: 700px;
 }
-#fullpage .two .swiper-container img {
-  display: block;
+
+
+/* 第三屏 */
+#fullpage .three {
+  color:#fff;
+}
+#fullpage .three .content_list {
+  height: 100%;
+  position: relative;
+  float: left;
+  outline: none;
+}
+#fullpage .three .content_list img {
   width: 100%;
+  height: 100%;
+}
+#fullpage .three .content_list .item_3 {
+  height: 100%;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  z-index: 999;
+}
+
+#fullpage .three .content_list .item_3 .item_31 {
+  font-size:80px;
+}
+#fullpage .three .content_list .item_3 .item_31  span{
+  font-size:80px;
+  color: #00b7d3;
+}
+#fullpage .three .content_list .item_3 .item_32 {
+  font-size: 40px;
+}
+#fullpage .three .content_list .item_3 i {
+  display: block;
+  width: 800px;
+  height: 1px;
+  border:1px #fff solid;
+  background-color: #fff;
+  margin: 30px auto;
+}
+#fullpage .three .content_list .item_3 .item_33 {
+  font-size:50px;
+}
+#fullpage .three .content_list .item_3 .item_34 {
+  margin-top:20px;
+  width: 700px;
+  font-size:20px;
+}
+/* 第四屏 */
+#fullpage .four {
+  color: #fff;
+  position: relative;
+}
+#fullpage .four img {
+  width: 100%;
+  height: 100%;
+}
+#fullpage .four .tit{
+  position: absolute;
+  top: 500px;
+  left: 200px;
+}
+#fullpage .four .tit h1 {
+  font-size: 30px;
+}
+#fullpage .four .tit span {
+  font-size: 20px;
+  margin-left: 10px;
+  padding:5px;
+  background-color: #00b7d3;
 }
