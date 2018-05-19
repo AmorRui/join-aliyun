@@ -11,9 +11,15 @@ window.onload = function () {
     pagination: '.swiper-pagination',
 
   });
-  // fullpage
-   $('#fullpage').fullpage();
+  
 }
-
+// fullpage
+$(function () {
+  $('#fullpage').fullpage({
+    navigation:true,
+    navigationPosition:left,
+    navigationTooltips:"1","2"
+  });
+});
 
 
