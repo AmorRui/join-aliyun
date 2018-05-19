@@ -208,6 +208,8 @@ input,button,textarea{
   left: 200px;
   animation: section_one_p 1s 0.2s forwards;
 }
+
+/* 加入阿里云 */
 #fullpage .one .join {
   position: fixed;
   top: 77px;
@@ -252,6 +254,8 @@ input,button,textarea{
 #fullpage .one .join:hover .line{
   background: #fff;
 }
+
+/* 下一页图片 */
 @keyframes page {
   0%{
     opacity: 0;
@@ -273,7 +277,78 @@ input,button,textarea{
 }
 #fullpage .one .page {
   position: fixed;
+  top: 450px;
+  right: 100px;
+  opacity: 0;
   z-index: 20;
   width: 80px;
   animation: page 2s 3s forwards;
+}
+
+
+/* 第二屏 */
+#fullpage .two {
+  color:#fff;
+}
+#fullpage .two .content_list {
+  height: 100%;
+  position: relative;
+  float: left;
+  outline: none;
+  /* overflow: hidden; */
+}
+#fullpage .two .content_list .swiper-slide {
+  float: left;
+}
+#fullpage .two .content_list .two_img {
+  width: 100%;
+  height: 100%;
+}
+/* 
+@keyframes section_two {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 200px;
+  }
+} */
+#fullpage .two .content_list .item {
+  height: 100%;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+
+#fullpage .two .content_list .item .iten_0 {
+  font-size:30px;
+}
+#fullpage .two .content_list .item .iten_1 {
+  font-size: 80px;
+}
+
+#fullpage .two .content_list .item .iten_2 {
+  font-size:80px;
+}
+#fullpage .two .content_list .item .iten_2  span{
+  font-size:80px;
+  color: #00b7d3;
+}
+#fullpage .two .content_list .item .iten_3 {
+  font-size:80px;
+}
+#fullpage .two .content_list .item i {
+  display: block;
+  width: 800px;
+  height: 1px;
+  border:1px #fff solid;
+  background-color: #fff;
+  margin: 30px auto;
+}
+#fullpage .two .content_list .item .iten_4 {
+  width: 700px;
+}
+#fullpage .two .swiper-container img {
+  display: block;
+  width: 100%;
 }

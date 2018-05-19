@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>join 阿里云</title>
-  <!-- style样式 -->
+  <!-- 轮播图 -->
+  <link rel="stylesheet" href="./css/swiper.min.css">
+  <!-- fullpage -->
   <link rel="stylesheet" href="./css/jquery.fullpage.min.css">
+  <!-- css样式 -->
   <link rel="stylesheet" href="./css/index.css">
-  <!-- js交互 -->
-  <script src="./js/jquery.min.js" ></script>
+
+  <!-- jquery -->
+  <script src="./js/jquery.min.js"></script>
+  <!-- 轮播图 -->
+  <script src="./js/swiper.min.js"></script>
+  <!-- fullpage -->
   <script src="./js/jquery.fullpage.min.js"></script>
+ 
   <script src="./js/index.js"></script>
 </head>
+
 <body>
   <div class="hearch">
     <div class="logo">
-      <img src="./img/logo.gif" alt="" >
+      <img src="./img/logo.gif" alt="">
       <img src="./img/logo_2.png" alt="">
     </div>
     <div class="search">
@@ -25,75 +35,143 @@
       <img src="./img/search——1.png" alt="">
       <img src="./img/search.png" alt="">
     </div>
-    
+
     <ul class="nav">
-      <li><img src="./img/tu.png" alt=""><a href="javescript:;">    中国站</a></li>
-      <li><a href="javescript:;">控制台</a></li>
-      <li><a href="javescript:;">文档</a></li>
-      <li><a href="javescript:;">备案</a></li>
-      <li><a href="javescript:;">邮箱</a></li>
-      <li><a href="javescript:;">登陆</a></li>
-      <li><button>注册</button></li>
+      <li>
+        <img src="./img/tu.png" alt="">
+        <a href="javescript:;"> 中国站</a>
+      </li>
+      <li>
+        <a href="javescript:;">控制台</a>
+      </li>
+      <li>
+        <a href="javescript:;">文档</a>
+      </li>
+      <li>
+        <a href="javescript:;">备案</a>
+      </li>
+      <li>
+        <a href="javescript:;">邮箱</a>
+      </li>
+      <li>
+        <a href="javescript:;">登陆</a>
+      </li>
+      <li>
+        <button>注册</button>
+      </li>
     </ul>
   </div>
   <div id="fullpage">
-      <div class="section one">
-        <video src="./img/one.mp4" autoplay="autoplay" data-autoplay="" muted="" loop=""></video>
-        <img src="./img/1.tit.jpg" alt="" class="onetit">
-        <img src="./img/1.titi2.jpg" alt="" class="twotit">
-        <h1>为了无法计算的价值</h1>
-        <i></i>
-        <span>阿里云创立于2009年，是全球领先的云计算及人工智能科技公司，为200多个国家和地区的企业、开发者和政府机构提供服务。
-2017年1月阿里云成为奥运会全球指定云服务商。阿里云致力于以在线公共服务的方式，提供安全、可靠的计算和数据处理能力，让计算和人工智能成为普惠科技。</span>
-        <a href="127.0.0.1" class="join">
-          <img src="./img/1.jion.png" alt="">
-          <p>Join Us</p>
-          <i class="line"></i>
-          <p>阿里云</p>
-        </a>
-        <img src="./img/bottom.png" alt="" class="page">
+    <div class="section one">
+      <video src="./img/one.mp4" autoplay="autoplay" data-autoplay="" muted="" loop=""></video>
+      <img src="./img/1.tit.jpg" alt="" class="onetit">
+      <img src="./img/1.titi2.jpg" alt="" class="twotit">
+      <h1>为了无法计算的价值</h1>
+      <i></i>
+      <span>阿里云创立于2009年，是全球领先的云计算及人工智能科技公司，为200多个国家和地区的企业、开发者和政府机构提供服务。 2017年1月阿里云成为奥运会全球指定云服务商。阿里云致力于以在线公共服务的方式，提供安全、可靠的计算和数据处理能力，让计算和人工智能成为普惠科技。
+      </span>
+      <a href="127.0.0.1" class="join">
+        <img src="./img/1.jion.png" alt="">
+        <p>Join Us</p>
+        <i class="line"></i>
+        <p>阿里云</p>
+      </a>
+      <img src="./img/bottom.png" alt="" class="page">
+    </div>
+    <div class="section two swiper-container">
+      <div class="content_list swiper-wrapper">
+        <div class="content_1 swiper-slide">
+          <img src="./img/two_1.png" alt="" class="two_img">
+          <div class="item">
+            <p class="iten_0">更快 更高 更强 更智能</p>
+            <h3 class="iten_1">奥运会</h3>
+            <h3 class="iten_2">[
+              <span>2018-2028</span> ]</h3>
+            <h3 class="iten_3">全球指定云服务商</h3>
+            <i></i>
+            <div class="desc">
+              <p class="iten_4">>2017年1月19日，国际奥林匹克委员会与阿里巴巴集团共同宣布达成长期合作伙伴关系，阿里巴巴将成为国际奥委会在“云服务”以及“电子商务平台服务”领域的唯一官方合作伙伴，同时成为奥林匹克频道的创始合作伙伴，阿里云成为奥运会的全球指定云服务商。将为奥运会提供全面的云计算和大数据基础设施及服务，帮助奥运会更高效、更智能和更安全地运营。阿里云总裁胡晓明说：“阿里云和奥运会走在一起，是中国第一次有机会用自主研发的软件技术来为全球这么大的体育赛事服务，为全球这么大的组织来提供云计算的服务。”</p>
+            </div>
+          </div>
+        </div>
+        <div class="content_2 swiper-slide">
+          <img src="./img/two-2.jpg" alt=""  class="two_img">
+          <div class="item">
+            <p class="iten_0">计算无边 洞察宇宙</p>
+            <h3 class="iten_1">国家天文台</h3>
+            <h3 class="iten_2">[计算
+              <span>10亿光年</span> ]</h3>
+            <h3 class="iten_3">数字宇宙</h3>
+            <i></i>
+            <div class="desc">
+              <p class="iten_4">“中国天眼”FAST是世界最大单口径、最灵敏的射电望远镜，能接收到137亿光年以外的电磁信号，进入正式科学观测后，每天将产生50TB数据，这将是一个100亿光年的数字宇宙。中科院国家天文台与阿里云正在共同开展跨领域的前沿科学研究和应用合作，双方将共同完成中国虚拟天文台上云项目，打造全生命周期的天文大数据管理与开放共享平台，开发云上天文应用软件与服务，推进数据驱动的天文科普教育，与大众共享数字宇宙，同时针对光学天文、射电天文、数值模拟和数据挖掘等领域的大数据技术与应用开展深度合作。</p>
+            </div>
+          </div>
+        </div>
+        <div class="content_3 swiper-slide">
+          <img src="./img/two_3.jpg" alt=""  class="two_img">
+          <div class="item">
+            <p class="iten_0">中国精度 定位未来</p>
+            <h3 class="iten_1">阿里云助力千寻</h3>
+            <h3 class="iten_2">[
+              <span>3秒实现</span> ]</h3>
+            <h3 class="iten_3">厘米级定位</h3>
+            <i></i>
+            <div class="desc">
+              <p class="iten_4">千寻北斗结合使用阿里云实现厘米级定位，为全国智能产业提供厘米级乃至毫米级高精度位置定位，快速＋精准定位，为汽车导航、精准农业、防灾减灾守护家园等行业输出技术支持。农业领域无人机依靠高精度位置服务，夜间自动喷洒农药，再不畏惧风力、光线、地形。智能铁路养护，实施精准定位山体毫米级移动，帮助养护工人监测铁路眼线山体变化，保障列车和乘客安全。7X24小时房屋安全监测，依靠高精度位置服务，实时监测毫米级房屋位置变化，避免传统人工检测误差，保障千家万户生命财产安全</p>
+            </div>
+          </div>
+        </div>
+        <div class="content_4 swiper-slide">
+          <img src="./img/two_4.jpg" alt=""  class="two_img">
+          <div class="item">
+            <p class="iten_0">多维感知 全局洞察</p>
+            <h3 class="iten_1">ET大脑</h3>
+            <h3 class="iten_2">[
+              <span>AI加速</span> ]</h3>
+            <h3 class="iten_3">赋能行业</h3>
+            <i></i>
+            <div class="desc">
+              <p class="iten_4">阿里云推出整合城市管理、工业优化、辅助医疗、环境治理、航空调度等全局能力为一体的ET大脑，全面布局产业AI。ET城市大脑将杭州试点区域通行时间减少15.3%，可为救护车自动生成绿色通道，抵达现场时间减少50%。ET工业大脑“走进”车间，突破了良品率提升、故障率预测等制造业核心难题，已经在光伏、橡胶、能源等五个行业落地，帮助数家大型制造企业创造利润数十亿元。ET航空大脑帮助首都机场分配停机位，预计每天调度1700架次航班，帮助乘客节省5000个小时。ET大脑希望在经济发展带来的复杂全局问题中找到最优解决方案，用实践为全球科技创新提供巨大的探索场景。</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="section">
-        <img src="./img/two_1.png" alt="">
-        <img src="./img/two_2.png" alt="">
-        <img src="./img/two_3.png" alt="">
-      </div>
-      <div class="section">
-        <img src="./img/3_1.jpg" alt="">
-        <img src="./img/3_2.jpg" alt="">
-        <img src="./img/3_3.jpg" alt="">
-      </div>
-      <div class="section">
-          <img src="./img/4.jpg" alt="">
-      </div>
-      <div class="section">
-          <video src="./img/five.mp4"></video>
-          <p class="slide-desc" >
-            阿里云为全球客户部署200多个飞天数据中心，通过底层统一的飞天操作系统，为客户提供全球独有的混合云体验。  
-            <br>
-            在这里我们承诺提供创造非凡事的平台机会，让你成为更好的自己。
-            <br> 
-            什么能撑起芳华岁月？就是一群有情有义的人，一起做一件有价值有意义的事。
-            <br>
-            在阿里每个人都会过两个生日，一个是出生的日子，一个是进入阿里的纪念日，我们一起在这里因爱“相信”，因爱“坚定”，因爱“美好”。
-          </p>
-          <img src="./img/5_1.png" alt="">
-          <img src="./img/5_2.png" alt="">
-          <img src="./img/5_3.png" alt="">
+    </div>
+    <!-- <div class="section">
+      <img src="./img/3_1.jpg" alt="">
+      <img src="./img/3_2.jpg" alt="">
+      <img src="./img/3_3.jpg" alt="">
+    </div>
+    <div class="section">
+      <img src="./img/4.jpg" alt="">
+    </div>
+    <div class="section">
+      <video src="./img/five.mp4"></video>
+      <p class="slide-desc">
+        阿里云为全球客户部署200多个飞天数据中心，通过底层统一的飞天操作系统，为客户提供全球独有的混合云体验。
+        <br> 在这里我们承诺提供创造非凡事的平台机会，让你成为更好的自己。
+        <br> 什么能撑起芳华岁月？就是一群有情有义的人，一起做一件有价值有意义的事。
+        <br> 在阿里每个人都会过两个生日，一个是出生的日子，一个是进入阿里的纪念日，我们一起在这里因爱“相信”，因爱“坚定”，因爱“美好”。
+      </p>
+      <img src="./img/5_1.png" alt="">
+      <img src="./img/5_2.png" alt="">
+      <img src="./img/5_3.png" alt="">
 
-          <img src="./img/5_4.png" alt="">
-          <img src="./img/5_5.png" alt="">
-          <img src="./img/5_6.png" alt="">
-      </div>
-      <div class="section">
-        <img src="./img/6_1.jpg" alt="">
-        <img src="./img/6_2.jpg" alt="">
-        <img src="./img/6_3.jpg" alt="">
-        <img src="./img/6.3.jpg" alt="">
-        <img src="./img/6_4.jpg" alt="">
-        <img src="./img/6_5.jpg" alt="">
-        <img src="./img/6_6.jpg" alt="">
-      </div>
+      <img src="./img/5_4.png" alt="">
+      <img src="./img/5_5.png" alt="">
+      <img src="./img/5_6.png" alt="">
+    </div>
+    <div class="section">
+      <img src="./img/6_1.jpg" alt="">
+      <img src="./img/6_2.jpg" alt="">
+      <img src="./img/6_3.jpg" alt="">
+      <img src="./img/6.3.jpg" alt="">
+      <img src="./img/6_4.jpg" alt="">
+      <img src="./img/6_5.jpg" alt="">
+      <img src="./img/6_6.jpg" alt=""> -->
+    </div>
   </div>
 </body>
+
 </html>
